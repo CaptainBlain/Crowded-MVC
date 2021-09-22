@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>702894745217-qielufuhvgjr6qnrt50i8b08310vl2di.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.702894745217-qielufuhvgjr6qnrt50i8b08310vl2di</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCncbCHQ7MN0b9GC2WuISe3VgpssYvyQ9s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>702894745217</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ellisappdev.crowded</string>
+	<key>PROJECT_ID</key>
+	<string>crowded-292f0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crowded-292f0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:702894745217:ios:cbd9bbecd49c35f07d0f80</string>
+	<key>DATABASE_URL</key>
+	<string>https://crowded-292f0.firebaseio.com</string>
+</dict>
+</plist>
