@@ -11,12 +11,6 @@ class BusinessWebsiteTableViewCell: UITableViewCell {
 
     static let identifier = "BusinessWebsiteTableViewCell"
     
-    var business: Business!{
-        didSet {
-            layoutSubviews()
-        }
-    }
-    
     @IBOutlet weak var websiteLabel: UILabel!
     @IBOutlet weak var websiteDetailsLabel: UILabel!
         
@@ -26,11 +20,6 @@ class BusinessWebsiteTableViewCell: UITableViewCell {
         selectionStyle = .none
     }
 
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        websiteDetailsLabel.text = business.contact.website
-        
-    }
+
     
 }

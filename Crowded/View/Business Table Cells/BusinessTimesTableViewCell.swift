@@ -10,13 +10,7 @@ import UIKit
 class BusinessTimesTableViewCell: UITableViewCell {
 
     static let identifier = "BusinessTimesTableViewCell"
-    
-    var business: Business! {
-        didSet {
-            layoutSubviews()
-        }
-    }
-    
+        
     @IBOutlet weak var openingTimesLabel: UILabel!
     @IBOutlet weak var openingTimesDetailsLabel: UILabel!
     
@@ -25,13 +19,6 @@ class BusinessTimesTableViewCell: UITableViewCell {
         // Initialization code
         selectionStyle = .none
 
-    }
-
-    override func layoutSubviews() {
-        super.layoutSubviews()
-                
-        openingTimesDetailsLabel.text = business.openingTimes.openingTimesString
-        
     }
     
 }

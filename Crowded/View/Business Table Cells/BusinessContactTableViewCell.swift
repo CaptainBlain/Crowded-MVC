@@ -34,14 +34,7 @@ class BusinessContactTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        let phone = business.contact.phone
-        let email = business.contact.email
-        contactLabel.text = "Contact"
-        if phone.isEmpty && email.isEmpty {
-            contactLabel.text = ""
-        }
-        phoneNumberLabel.text = phone
-        emailLabel.text = email
+    
         
     }
     

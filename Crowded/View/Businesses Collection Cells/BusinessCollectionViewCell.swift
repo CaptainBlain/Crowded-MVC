@@ -65,7 +65,7 @@ class BusinessCollectionViewCell: UICollectionViewCell {
             
             imageViewBorderHeightConstraint.constant = self.frame.size.height - constraints - 8
             imageViewHeightConstraint.constant = imageViewBorderHeightConstraint.constant - 12
-            // imageView.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
+    
         }
     }
 }

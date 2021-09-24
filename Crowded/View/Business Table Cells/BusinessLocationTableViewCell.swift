@@ -11,12 +11,6 @@ class BusinessLocationTableViewCell: UITableViewCell {
 
     static let identifier = "BusinessLocationTableViewCell"
     
-    var business: Business! {
-        didSet {
-            layoutSubviews()
-        }
-    }
-    
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
   
@@ -26,12 +20,4 @@ class BusinessLocationTableViewCell: UITableViewCell {
         selectionStyle = .none
 
     }
-
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        cityLabel.text = business.businessAddress.city.capitalized
-        addressLabel.text = business.businessAddress.addressString
-    }
-    
 }

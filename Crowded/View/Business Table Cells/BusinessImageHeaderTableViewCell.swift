@@ -11,7 +11,13 @@ class BusinessImageHeaderTableViewCell: UITableViewCell {
 
     static let identifier = "BusinessImageHeaderTableViewCell"
     
-    var business: Business!{
+    var banner: String? {
+        didSet {
+            layoutSubviews()
+        }
+    }
+    
+    var logo: String? {
         didSet {
             layoutSubviews()
         }
@@ -34,29 +40,30 @@ class BusinessImageHeaderTableViewCell: UITableViewCell {
         businessImageViewBorder.layer.shadowOffset = CGSize.zero
         businessImageViewBorder.layer.shadowRadius = 4
         businessImageViewBorder.layer.shadowPath = UIBezierPath(roundedRect: businessImageViewBorder.bounds, cornerRadius: 10).cgPath
+        
+        bannerImageView.contentMode = .scaleAspectFill
+        
+        logoImageView.layer.cornerRadius = 12.0
+        logoImageView.contentMode = .scaleAspectFit
     }
-
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        businessImageViewBorder.backgroundColor = business.settings.backgroundColour.hexStringToUIColor
-        bannerImageView.backgroundColor = business.settings.backgroundColour.hexStringToUIColor
-        bannerImageView.contentMode = .scaleAspectFill
-        
-        if let banner = URL(string: business.images.banner) {
-            NetworkController.shared.requestImage(banner) { [weak self] image in
-                self?.bannerActivityIndicator.stopAnimating()
-                self?.bannerImageView.image = image
+        if let banner = banner {
+            if let bannerURL = URL(string: banner) {
+                NetworkController.shared.requestImage(bannerURL) { [weak self] image in
+                    self?.bannerActivityIndicator.stopAnimating()
+                    self?.bannerImageView.image = image
+                }
             }
         }
         
-        logoImageView.backgroundColor = business.settings.backgroundColour.hexStringToUIColor
-        logoImageView.layer.cornerRadius = 12.0
-        logoImageView.contentMode = .scaleAspectFit
-        
-        if let logo = URL(string: business.images.logo) {
-            NetworkController.shared.requestImage(logo) { [weak self] image in
-                self?.logoImageView.image = image
+        if let logo = logo {
+            if let logoURL = URL(string: logo) {
+                NetworkController.shared.requestImage(logoURL) { [weak self] image in
+                    self?.logoImageView.image = image
+                }
             }
         }
     }

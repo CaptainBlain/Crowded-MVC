@@ -50,28 +50,38 @@ extension BusinessDetailViewController: UITableViewDataSource {
             switch HeaderSections.build(with: indexPath.item) {
             case .image:
                 let cell = tableView.dequeueReusableCell(withIdentifier: BusinessImageHeaderTableViewCell.identifier, for: indexPath) as! BusinessImageHeaderTableViewCell
-                cell.business = business
+                cell.businessImageViewBorder.backgroundColor = business.settings.getBackgroundColour()
+                cell.bannerImageView.backgroundColor = business.settings.getBackgroundColour()
+                cell.logoImageView.backgroundColor = business.settings.getBackgroundColour()
+
+                cell.banner = business.images.banner
+                cell.logo = business.images.logo
+
                 return cell
             case .title:
                 let cell = tableView.dequeueReusableCell(withIdentifier: BusinessHeaderTableViewCell.identifier, for: indexPath) as! BusinessHeaderTableViewCell
-                cell.business = business
+                cell.titleLabel.text = business.businessName.capitalized
+                cell.tagLabel.text = business.tagString
+                cell.descTextView.text = business.businessDesc
                 return cell
             }
         case .location:
             let cell = tableView.dequeueReusableCell(withIdentifier: BusinessLocationTableViewCell.identifier, for: indexPath) as! BusinessLocationTableViewCell
-            cell.business = business
+            cell.cityLabel.text = business.businessAddress.city.capitalized
+            cell.addressLabel.text = business.businessAddress.addressString
             return cell
         case .times:
             let cell = tableView.dequeueReusableCell(withIdentifier: BusinessTimesTableViewCell.identifier, for: indexPath) as! BusinessTimesTableViewCell
-            cell.business = business
+            cell.openingTimesDetailsLabel.text = business.openingTimes.openingTimesString
             return cell
         case .website:
             let cell = tableView.dequeueReusableCell(withIdentifier: BusinessWebsiteTableViewCell.identifier, for: indexPath) as! BusinessWebsiteTableViewCell
-            cell.business = business
+            cell.websiteDetailsLabel.text = business.contact.website
             return cell
         case .contact:
             let cell = tableView.dequeueReusableCell(withIdentifier: BusinessContactTableViewCell.identifier, for: indexPath) as! BusinessContactTableViewCell
-            cell.business = business
+            cell.phoneNumberLabel.text = business.contact.phone
+            cell.emailLabel.text = business.contact.email
             return cell
         }
     }
