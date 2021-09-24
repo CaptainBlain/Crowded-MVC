@@ -7,9 +7,9 @@
 
 import UIKit
 
-class BusinessContactTableViewCell: UITableViewCell {
+class BusinessWebsiteTableViewCell: UITableViewCell {
 
-    static let identifier = "BusinessContactTableViewCell"
+    static let identifier = "BusinessWebsiteTableViewCell"
     
     var business: Business!{
         didSet {
@@ -19,29 +19,17 @@ class BusinessContactTableViewCell: UITableViewCell {
     
     @IBOutlet weak var websiteLabel: UILabel!
     @IBOutlet weak var websiteDetailsLabel: UILabel!
-    
-    @IBOutlet weak var contactLabel: UILabel!
-    @IBOutlet weak var phoneNumberLabel: UILabel!
-    @IBOutlet weak var emailLabel: UILabel!
-    
+        
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         selectionStyle = .none
-
     }
 
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        let phone = business.contact.phone
-        let email = business.contact.email
-        contactLabel.text = "Contact"
-        if phone.isEmpty && email.isEmpty {
-            contactLabel.text = ""
-        }
-        phoneNumberLabel.text = phone
-        emailLabel.text = email
+        websiteDetailsLabel.text = business.contact.website
         
     }
     

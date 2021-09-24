@@ -9,13 +9,18 @@ import UIKit
 
 class BusinessHeaderTableViewCell: UITableViewCell {
 
-    static let identifier = "BusinessHeaderTableViewCellId"
+    static let identifier = "BusinessHeaderTableViewCell"
     
-    var business: Business!
+    var business: Business!{
+        didSet {
+            layoutSubviews()
+        }
+    }
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var tagLabel: UILabel!
     @IBOutlet weak var descLabel: UILabel!
+    @IBOutlet weak var descTextView: UITextView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,6 +33,6 @@ class BusinessHeaderTableViewCell: UITableViewCell {
         
         titleLabel.text = business.businessName.capitalized
         tagLabel.text = business.tagString
-        descLabel.text = business.businessDesc
+        descTextView.text = business.businessDesc
     }
 }

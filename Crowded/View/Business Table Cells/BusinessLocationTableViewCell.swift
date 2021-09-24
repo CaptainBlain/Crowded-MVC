@@ -9,16 +9,17 @@ import UIKit
 
 class BusinessLocationTableViewCell: UITableViewCell {
 
-    static let identifier = "BusinessLocationTableViewCellId"
+    static let identifier = "BusinessLocationTableViewCell"
     
-    var business: Business!
+    var business: Business! {
+        didSet {
+            layoutSubviews()
+        }
+    }
     
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
   
-    @IBOutlet weak var openingTimesLabel: UILabel!
-    @IBOutlet weak var openingTimesDetailsLabel: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -31,9 +32,6 @@ class BusinessLocationTableViewCell: UITableViewCell {
         
         cityLabel.text = business.businessAddress.city.capitalized
         addressLabel.text = business.businessAddress.addressString
-        
-        openingTimesDetailsLabel.text = business.openingTimes.openingTimesString
-        
     }
     
 }

@@ -29,6 +29,8 @@
 		6C557B0126FCA97D00BB818D /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C557B0026FCA97D00BB818D /* Extension+String.swift */; };
 		6C557B0326FCA99200BB818D /* Extension+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C557B0226FCA99200BB818D /* Extension+Font.swift */; };
 		6C557B0526FCA9AB00BB818D /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C557B0426FCA9AB00BB818D /* Extension+Color.swift */; };
+		6C557B0726FDE61300BB818D /* BusinessTimesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C557B0626FDE61300BB818D /* BusinessTimesTableViewCell.swift */; };
+		6C557B0926FDE62300BB818D /* BusinessWebsiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C557B0826FDE62300BB818D /* BusinessWebsiteTableViewCell.swift */; };
 		6CD6CCE2257927FE00B78C98 /* crowded.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CD6CCE1257927FE00B78C98 /* crowded.json */; };
 		6CD6CCFC257935F700B78C98 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6CCFB257935F700B78C98 /* Business.swift */; };
 		6CE98A34256642EF00C8BB2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE98A33256642EF00C8BB2F /* AppDelegate.swift */; };
@@ -86,6 +88,8 @@
 		6C557B0026FCA97D00BB818D /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		6C557B0226FCA99200BB818D /* Extension+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Font.swift"; sourceTree = "<group>"; };
 		6C557B0426FCA9AB00BB818D /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
+		6C557B0626FDE61300BB818D /* BusinessTimesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTimesTableViewCell.swift; sourceTree = "<group>"; };
+		6C557B0826FDE62300BB818D /* BusinessWebsiteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessWebsiteTableViewCell.swift; sourceTree = "<group>"; };
 		6CD6CCE1257927FE00B78C98 /* crowded.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = crowded.json; sourceTree = "<group>"; };
 		6CD6CCFB257935F700B78C98 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		6CE98A30256642EF00C8BB2F /* Crowded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crowded.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +169,8 @@
 				6C2656AC2566B4800096FD5D /* BusinessImageHeaderTableViewCell.swift */,
 				6C2656B42566B49E0096FD5D /* BusinessHeaderTableViewCell.swift */,
 				6C2656B92566B4B90096FD5D /* BusinessLocationTableViewCell.swift */,
+				6C557B0626FDE61300BB818D /* BusinessTimesTableViewCell.swift */,
+				6C557B0826FDE62300BB818D /* BusinessWebsiteTableViewCell.swift */,
 				6C2656BE2566B4D20096FD5D /* BusinessContactTableViewCell.swift */,
 			);
 			path = "Business Table Cells";
@@ -501,6 +507,7 @@
 				6C26567C25668ADB0096FD5D /* LocationHeader.swift in Sources */,
 				6CE98A3E256642EF00C8BB2F /* Crowded.xcdatamodeld in Sources */,
 				6CE98A38256642EF00C8BB2F /* MainViewController.swift in Sources */,
+				6C557B0926FDE62300BB818D /* BusinessWebsiteTableViewCell.swift in Sources */,
 				6CE98B1A25666E9500C8BB2F /* FeaturedCollectionViewCell.swift in Sources */,
 				6C2656AD2566B4800096FD5D /* BusinessImageHeaderTableViewCell.swift in Sources */,
 				6C557AF526FC7BC100BB818D /* Address.swift in Sources */,
@@ -508,6 +515,7 @@
 				6CE98AFD2566654500C8BB2F /* Extension+UIViewController.swift in Sources */,
 				6C2656BA2566B4B90096FD5D /* BusinessLocationTableViewCell.swift in Sources */,
 				6C557AF026FC773100BB818D /* SettingsType.swift in Sources */,
+				6C557B0726FDE61300BB818D /* BusinessTimesTableViewCell.swift in Sources */,
 				6CE98B1525666D0D00C8BB2F /* BusinessCollectionViewCell.swift in Sources */,
 				6CE98A34256642EF00C8BB2F /* AppDelegate.swift in Sources */,
 				6C557B0326FCA99200BB818D /* Extension+Font.swift in Sources */,

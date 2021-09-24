@@ -21,21 +21,12 @@ class BusinessDetailViewController: UIViewController {
     
     fileprivate enum BusinessSections: Int, TableViewEnum {
         case header = 0
-        case address
+        case location
+        case times
+        case website
         case contact
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
-        
-        //tableView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        tableView.backgroundColor = .clear
-        //tableView.sectionHeaderHeight = UITableView.automaticDimension
-        tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 200
-    }
 }
 
 extension BusinessDetailViewController: UITableViewDataSource {
@@ -47,32 +38,10 @@ extension BusinessDetailViewController: UITableViewDataSource {
         switch BusinessSections.build(with: section) {
         case .header:
             return HeaderSections.all.count
-        case .address:
-            return 1
-        case .contact:
+        default:
             return 1
         }
     }
-
-    
-    //    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    //        var height: CGFloat = 60.0;
-    //        switch BusinessSections.build(with: indexPath.section) {
-    //        case .header:
-    //            switch HeaderSections.build(with: indexPath.item) {
-    //            case .image:
-    //                height = 60
-    //            case .title:
-    //                height = 60
-    //            }
-    //        case .address:
-    //            height = 60
-    //        case .contact:
-    //            height = 60
-    //        }
-    //        return height
-    //    }
-        
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -88,8 +57,16 @@ extension BusinessDetailViewController: UITableViewDataSource {
                 cell.business = business
                 return cell
             }
-        case .address:
+        case .location:
             let cell = tableView.dequeueReusableCell(withIdentifier: BusinessLocationTableViewCell.identifier, for: indexPath) as! BusinessLocationTableViewCell
+            cell.business = business
+            return cell
+        case .times:
+            let cell = tableView.dequeueReusableCell(withIdentifier: BusinessTimesTableViewCell.identifier, for: indexPath) as! BusinessTimesTableViewCell
+            cell.business = business
+            return cell
+        case .website:
+            let cell = tableView.dequeueReusableCell(withIdentifier: BusinessWebsiteTableViewCell.identifier, for: indexPath) as! BusinessWebsiteTableViewCell
             cell.business = business
             return cell
         case .contact:

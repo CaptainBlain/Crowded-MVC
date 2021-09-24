@@ -9,9 +9,13 @@ import UIKit
 
 class BusinessImageHeaderTableViewCell: UITableViewCell {
 
-    static let identifier = "BusinessImageHeaderTableViewCellId"
+    static let identifier = "BusinessImageHeaderTableViewCell"
     
-    var business: Business!
+    var business: Business!{
+        didSet {
+            layoutSubviews()
+        }
+    }
     
     @IBOutlet weak var businessImageViewBorder: UIView!
     @IBOutlet weak var bannerImageView: UIImageView!
