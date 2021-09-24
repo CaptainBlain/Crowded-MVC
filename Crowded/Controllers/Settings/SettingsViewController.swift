@@ -7,16 +7,7 @@
 
 import UIKit
 
-enum SettingsType: String {
-    case suggestions = "Suggestions"
-    case help = "Help"
-    case contactSupport = "Contact Support"
-    case about = "About"
-    case taCs = "T&Cs"
-    case privacyPolicy = "Privacy policy"
-}
-
-class SettingsViewController: BaseViewController {
+class SettingsViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView! {
         didSet {
@@ -36,21 +27,21 @@ class SettingsViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         statusBarColor()
-        self.navigationController?.navigationBar.isTranslucent = false
+        navigationController?.navigationBar.isTranslucent = false
         
         tableView.backgroundColor = UIColor(named: "tableBackground")
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
-           super.viewWillAppear(animated)
-           self.navigationController?.navigationBar.isTranslucent = false
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isTranslucent = false
         setupNavBar()
-        self.tableView.reloadData()
+        tableView.reloadData()
     }
     
     func setupNavBar() {
-        let titleView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: self.navigationController!.navigationBar.frame.size.height + 10))
+        let titleView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: navigationController!.navigationBar.frame.size.height + 10))
         titleView.backgroundColor = .clear
         let label = UILabel(frame: CGRect(x: 12, y: 12, width: titleView.frame.size.width, height: titleView.frame.size.height))
         label.text = "Settings"
@@ -106,59 +97,5 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
         cell.titleString = settingsType.rawValue
         return cell
     }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let settingsType = dataSource[indexPath.section][indexPath.row]
-        switch settingsType {
-        case .suggestions:
-            openReportController(forType: .suggestion)
-            tableView.deselectRow(at: indexPath, animated: true)
-        case .help:
-            self.performSegue(withIdentifier: "openWebViewController", sender: nil)
-        case .contactSupport:
-            openReportController(forType: .support)
-            tableView.deselectRow(at: indexPath, animated: true)
-        case .about:
-            self.performSegue(withIdentifier: "openWebViewController", sender: nil)
-        case .privacyPolicy:
-            self.performSegue(withIdentifier: "openWebViewController", sender: nil)
-        case .taCs:
-            self.performSegue(withIdentifier: "openWebViewController", sender: nil)
-        }
-    }
-    
-    func openReportController(forType reportType: ReportType) {
-        let vc = ReportViewController()
-        vc.type = reportType
-        let navCon = UINavigationController(rootViewController: vc)
-        self.navigationController?.present(navCon, animated: true, completion: nil)
-    }
-}
-
-extension SettingsViewController {
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "openWebViewController" {
-            if let vc = segue.destination as? WebViewController {
-                if let indexPath = tableView.indexPathForSelectedRow {
-                    let settingsType = dataSource[indexPath.section][indexPath.row]
-                    print("settingsType: \(settingsType)")
-                    switch settingsType {
-                    case .suggestions:
-                        print("")
-                    case .help:
-                        vc.urlString = "https://sites.google.com/view/crowded-help/home?authuser=1"
-                    case .contactSupport:
-                        print("")
-                    case .about:
-                        vc.urlString = "https://sites.google.com/view/crowded-about/home?authuser=1"
-                    case .privacyPolicy:
-                        vc.urlString = "https://sites.google.com/view/crowdedprivacypolicy/home?authuser=1"
-                    case .taCs:
-                        vc.urlString = "https://sites.google.com/view/crowded-terms-conditions/home?authuser=1"
-                    }
-                    self.tableView.deselectRow(at: indexPath, animated: true)
-                }
-            }
-        }
-    }
+  
 }

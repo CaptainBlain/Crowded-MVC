@@ -1,6 +1,0 @@
-framework module Pods_Crowded_CrowdedUITests {
-  umbrella header "Pods-Crowded-CrowdedUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

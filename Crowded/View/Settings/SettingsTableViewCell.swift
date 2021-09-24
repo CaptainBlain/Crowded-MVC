@@ -19,6 +19,7 @@ class SettingsTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        selectionStyle = .default
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -29,8 +30,7 @@ class SettingsTableViewCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        rightArrowImageView.isHidden = false
-        selectionStyle = .default
+
         cellTitleLabel.font = UIFont.KailasaBold(19.0)
         cellTitleLabel.textColor = UIColor.getDarkGreyColor(1.0)
         cellTitleLabel.text = titleString

@@ -14,12 +14,8 @@ class FeaturedCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageViewBorder: UIView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var cover: UIView!
-    
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var titleLabelHeightConstraint: NSLayoutConstraint!
-    
     @IBOutlet weak var tagLabel: UILabel!
-    @IBOutlet weak var tagLabelHeightConstraint: NSLayoutConstraint!
     
     var business: Business? {
         didSet {
@@ -51,13 +47,8 @@ class FeaturedCollectionViewCell: UICollectionViewCell {
             }
 
             let businessName = business.businessName
-//            let titleSize = businessName.getStringSize(for: UIFont.helvetica(size: 17.0), andWidth: self.frame.size.width)
-//            titleLabelHeightConstraint.constant = titleSize.height
             titleLabel.text = businessName
             tagLabel.text = business.tagString
-
-            // imageViewHeightConstraint.constant = self.imageView.frame.size.width
-            // imageView.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
         }
     }
 }

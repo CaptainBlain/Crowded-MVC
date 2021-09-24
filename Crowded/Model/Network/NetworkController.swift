@@ -48,6 +48,17 @@ class NetworkController: NSObject {
 
 extension NetworkController {
 
+    public func fetchBusinessess(completionBlock: @escaping (_ image: [Business]?) -> ()) {
+        
+        //TODO: Network call here
+        if let jsonData = JsonHelper.readLocalFile(forName: "crowded") {
+            // Decode the json data to a Candidate struct
+            let business = try? JSONDecoder().decode([Business].self, from: jsonData)
+ 
+            completionBlock(business)
+        }
+    }
+    
     public func requestImage(_ url: URL, completionBlock: @escaping (_ image: UIImage?) -> ()) {
         // Return cached image
         let fileName = UUID().uuidString
@@ -76,10 +87,8 @@ extension NetworkController {
 // MARK: NSURLSessionDelegate
 
 extension NetworkController: URLSessionDelegate {
-
    
 }
-
 
 
 // MARK: -

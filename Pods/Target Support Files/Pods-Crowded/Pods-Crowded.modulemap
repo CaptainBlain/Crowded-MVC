@@ -1,6 +1,0 @@
-framework module Pods_Crowded {
-  umbrella header "Pods-Crowded-umbrella.h"
-
-  export *
-  module * { export * }
-}

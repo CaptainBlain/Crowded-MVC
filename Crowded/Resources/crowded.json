@@ -1,516 +1,514 @@
-{
-  "businesses" : [ {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "neville house",
-      "number" : "14",
-      "postcode" : "B2 5TX",
-      "street" : "WATERLOO STREET",
-      "subLocal" : ""
+[{
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "neville house",
+        "number": "14",
+        "postcode": "B2 5TX",
+        "street": "WATERLOO STREET",
+        "subLocal": ""
     },
-    "businessDesc" : "Nobody provides a cleaner cut, because no one is more thorough. No matter what your style is - classic business man, high taper, flat top, low and clean, quiff or classic mohawk - we'll get it perfectly right; just like we have for gentlemen since 1995.",
-    "businessName" : "The Barber House",
-    "contact" : {
-      "email" : "thebarberhouse102@hotmail.com",
-      "phone" : "0121 236 7507",
-      "website" : "https://www.thebarberhousebirmingham.co.uk/"
+    "businessDesc": "Nobody provides a cleaner cut, because no one is more thorough. No matter what your style is - classic business man, high taper, flat top, low and clean, quiff or classic mohawk - we'll get it perfectly right; just like we have for gentlemen since 1995.",
+    "businessName": "The Barber House",
+    "contact": {
+        "email": "thebarberhouse102@hotmail.com",
+        "phone": "0121 236 7507",
+        "website": "https://www.thebarberhousebirmingham.co.uk/"
     },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fbarber-house-2.jpg?alt=media&token=870855c9-5ff6-446b-afc0-12d5c97cd1df",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fbarber-house.png?alt=media&token=47e364d8-7b8f-46ab-bbc3-d4a856fd4107"
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fbarber-house-2.jpg?alt=media&token=870855c9-5ff6-446b-afc0-12d5c97cd1df",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fbarber-house.png?alt=media&token=47e364d8-7b8f-46ab-bbc3-d4a856fd4107"
     },
-    "openingTimes" : {
-      "friday" : "07:00 - 19:00",
-      "fullOpeningTimes" : "Mon - Thu: 10:00 - 19:00\nSat: 09:00 - 17:00\nSun: Closed",
-      "monday" : "10:00 - 19:00",
-      "saturday" : "09:00 - 17:00",
-      "sunday" : "",
-      "thursday" : "10:00 - 19:00",
-      "tuesday" : "10:00 - 19:00",
-      "wednesday" : "10:00 - 19:00",
-      "week" : "",
-      "weekend" : ""
+    "openingTimes": {
+        "friday": "07:00 - 19:00",
+        "fullOpeningTimes": "Mon - Thu: 10:00 - 19:00\nSat: 09:00 - 17:00\nSun: Closed",
+        "monday": "10:00 - 19:00",
+        "saturday": "09:00 - 17:00",
+        "sunday": "",
+        "thursday": "10:00 - 19:00",
+        "tuesday": "10:00 - 19:00",
+        "wednesday": "10:00 - 19:00",
+        "week": "",
+        "weekend": ""
     },
-    "settings" : {
-      "backgroundColour" : "#221F1F"
+    "settings": {
+        "backgroundColour": "#221F1F"
     },
-    "tags" : [ "Barber" ]
-  },{
-  "businessName": "Loki Wine Merchant & Tasting House",
-  "businessDesc": "Loki takes the existing mindset of wine as something that we consume, and shifts it to one of something we appreciate. It’s a journey, not a commodity. \nAt Loki we like to lay it all out in front of you and give you a choice. Hopefully, you’ll come away with an understanding about why wine tastes the way it does, and that understanding will grow and grow.",
-  "businessAddress": {
-    "number": "36",
-    "name": "",
-    "street": "Great Western Arcade",
-    "city": "Birmingham",
-    "subLocal": "",
-    "postcode": "B2 5HU"
-  },
-  "openingTimes": {
-    "fullOpeningTimes":"Mo - Sa: 10:00 – 18:00\n Su: 12:00 – 18:00"
-  },
-  "contact": {
-    "website": "https://www.lokiwine.co.uk",
-    "email": "",
-    "phone": "0121 212 9440"
-  },
-  "images": {
-    "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F2020%2Fnov%2FLoki-Logo-New-Without-Text-Black-on-Transparent.png?alt=media&token=97b3bf50-bc3e-488b-a081-e6fa55b71d46",
-    "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F2020%2Fnov%2FScreenshot%202020-11-26%20at%2015.51.15.png?alt=media&token=e3a9fcc5-1a85-425f-9990-ce161a608089"
-  },
-  "tags": [
-    "Wine", "Wine Tasting"
-  ],
-  "categories": [
-    "Alcohol"
-  ],
-  "settings": {
-    "backgroundColour": "#FFFFFF"
-  },
-  "featured": false
-},{
-  "businessName": "Smithsonia",
-  "businessDesc": "Smithsonia is an established and popular family business which has been open in Birmingham for over 40 years. During this time, the shop has filled the gifting needs of many local people and has established a wonderful network of suppliers, many of whom are independent artists from this country and beyond. We have now opened our doors to the rest of the country via our website.",
-  "businessAddress": {
-    "number": "5-9",
-    "name": "",
-    "street": "Piccadilly Arcade",
-    "city": "Birmingham",
-    "subLocal": "",
-    "postcode": "B2 4HD"
-  },
-  "openingTimes": {
-    "fullOpeningTimes":"Monday to Saturday 11.00am - 5.00pm."
-  },
-  "contact": {
-    "website": "https://www.smithsonia.co.uk",
-    "email": "mailto://smithsoniashop@gmail.com",
-    "phone": "01216438405"
-  },
-  "images": {
-    "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F2020%2Fnov%2Fsmithsonia-logo-200-white.png?alt=media&token=851bbcd6-9d2b-4e2b-af05-3d36b3f0250b",
-    "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F2020%2Fnov%2FScreenshot%202020-11-26%20at%2015.41.54.png?alt=media&token=8d94fa80-3734-49f5-80c7-4f1af9b57bac"
-  },
-  "tags": [
-    "Jewellery"
-  ],
-  "categories": [
-    "Jeweller"
-  ],
-  "settings": {
-    "backgroundColour": "#000000"
-  },
-  "featured": false
+    "tags": ["Barber"]
 }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "",
-      "number" : "1535 / 1537",
-      "postcode" : "B30 2JH",
-      "street" : "Pershore Road",
-      "subLocal" : "Stirchley"
-    },
-    "businessDesc" : "Stirchley Wines & Spirits was established in 1979 and remains a family-owned off-licence based in Stirchley, Birmingham.  Run by father and son team, Amrik and Krishan Rajput, we have built up a highly regarded and reputable business, which is very much part of the local community.\n\nWe at Stirchley Wines & Spirits are striving for something different, enriching lives with a wide and varied selection, from great beer and cider to fine wines and an unmatched selection of spirits.",
-    "businessName" : "Stirchley Wines & Spirits",
-    "contact" : {
-      "email" : "",
-      "phone" : "0121 459 9936",
-      "website" : "https://www.stirchleywines.co.uk/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fstirchley-wines-spritits-2.png?alt=media&token=02e3cea2-c10b-4e47-bf4e-2dfab4972d99",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fstirchley-wines-spritits-1.png?alt=media&token=2b34bc9a-c05b-4779-a31f-eb0bee604f58"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "12pm until 7pm - Monday to Friday\n11am until 7pm - Saturday"
-    },
-    "settings" : {
-      "backgroundColour" : "#FFFFFF"
-    },
-    "tags" : [ "Wines", "Spirits" ]
-  }, {
-    "businessAddress" : {
-      "city" : "BIRMINGHAM",
-      "name" : "",
-      "number" : "1420",
-      "postcode" : "B30 2PH",
-      "street" : "PERSHORE ROAD",
-      "subLocal" : ""
-    },
-    "businessDesc" : "SWEETMEAT INC. CONFECTIONERY IS MADE IN BIRMINGHAM. WE COOK IN SMALL BATCHES FOR THE HIGHEST QUALITY SUGAR CONFECTION. WE DON'T USE CHEAP SUBSTITUTES, WE DON'T ADD UNNECESSARY EXTRAS LIKE CHEMICAL THICKENERS OR EMULSIFIERS, AND WE DEFINITELY DON'T USE PALM OIL.",
-    "businessName" : "SWEETMEAT INC.",
-    "contact" : {
-      "email" : "hello@sweetmeat.co.uk",
-      "phone" : "",
-      "website" : "https://www.sweetmeat.co.uk/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fsw-2.png?alt=media&token=ce28b123-c00f-48c1-9fb9-058eed3fa3e6",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fsw-1.png?alt=media&token=650bd1f5-c3dc-45c8-ab28-76312afecd24"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "SATURDAYS FROM 10AM TIL 3PM"
-    },
-    "settings" : {
-      "backgroundColour" : "#FFFFFF"
-    },
-    "tags" : [ "CONFECTIONERY" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "",
-      "number" : "38",
-      "postcode" : "B15 1LD",
-      "street" : "Islington Row Middleway",
-      "subLocal" : "Village"
-    },
-    "businessDesc" : "WELCOME TO LA-POP!\n\nBIRMINGHAM’S FIRST INDEPENDENT LOLLY & COFFEE BAR\n\nWE SPECIALISE IN HANDCRAFTED GELATO LOLLIES FRESHLY MADE USING LOCALLY SOURCED ORGANIC MILK ",
-    "businessName" : "La Pop",
-    "contact" : {
-      "email" : "hello@la-pop.co.uk",
-      "phone" : "",
-      "website" : "https://www.la-pop.co.uk/home-1"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fla-2.jpg?alt=media&token=9500276c-b1d0-462b-a29b-80de3565ab50",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fla-1.png?alt=media&token=9b2e0dab-a0cc-4baa-9bdd-12c91733b9ee"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "Mon - Fri: 2 - 10pm\nSat - Sun: 12 - 10pm"
-    },
-    "settings" : {
-      "backgroundColour" : "#FFFFFF"
-    },
-    "tags" : [ "Gelato" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "",
-      "number" : "1402",
-      "postcode" : "B30 2PH",
-      "street" : "Pershore Road",
-      "subLocal" : "Stirchley"
-    },
-    "businessDesc" : "Quietude was founded in late 2018 by Sam and Jen Jackson. After years of feeling over-worked and over-stimulated, life felt like it was slipping away. We began to explore ways to slow down and achieve a better work-life balance. We realised the importance of looking after our mental health as well as our physical health and we started taking steps to live more mindfully.\n\nWe made the decision to open our own store, to help others to find calm and take care of themselves. And so, our vision of an independent store and sanctuary for our community and neighbours was born.\n\nWe offer a range of quality, sustainable items, chosen to promote peace and well being, from natural skincare products to soy candles, handmade pottery, homewares, and inspiring books. ",
-    "businessName" : "Quietude",
-    "contact" : {
-      "email" : "quietudestore@gmail.com",
-      "phone" : "",
-      "website" : "https://www.quietudestore.co.uk/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fqs-2.png?alt=media&token=055daaea-6e4b-406b-834c-a02dea1a78e6",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fqs-1.png?alt=media&token=b1815110-226b-4734-9eed-1e1d43289960"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "Sunday - Tuesday: Closed\nWednesday - Saturday: 10:30am - 4pm"
-    },
-    "settings" : {
-      "backgroundColour" : "#E1D8C7"
-    },
-    "tags" : [ "Wellbeing", "lifestyle shop" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "Stirchley Trading Estate",
-      "number" : "Unit 14",
-      "postcode" : "B30 2PF",
-      "street" : "Hazelwell Rd",
-      "subLocal" : "Stirchley"
-    },
-    "businessDesc" : "Back in the old days, long before “Salvage Hunter” was a twinkle in a TV producers’ eye, enamel lampshades were hanging plentifully in decaying factories and mills across the country. There was a small demand for supply and restoration of these shades from niche places like vintage car enthusiasts, heritage railways and the like. Having feet in both camps our MD, Harry started out in the comfort of his shed repairing old lamps mainly as favours for others.",
-    "businessName" : "Enamel Shades",
-    "contact" : {
-      "email" : "contact@enamelshades.co.uk",
-      "phone" : "0121 451 1799",
-      "website" : ""
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fes-2.jpg?alt=media&token=8d8eb236-420d-4d29-9305-2af8f102bcbe",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fes-1.png?alt=media&token=4a9e5ee7-b0fe-4de0-a7c6-1d33c3d7b22b"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "Mon - Fir: 8am–4:30pm"
-    },
-    "settings" : {
-      "backgroundColour" : "#CDCED2"
-    },
-    "tags" : [ "lighting shop" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "",
-      "number" : "3",
-      "postcode" : "B9 4AA",
-      "street" : "Gibb St",
-      "subLocal" : "Deritend"
-    },
-    "businessDesc" : "Apple are great, we love Apple, but have you tried getting an appointment at the genius bar recently? Chances are we can fix your Apple product faster, and cheaper than Apple can! That’s because we fix things down to component level. That’s right, we actually get a soldering iron out and replace the faulty component rather than replacing the whole board.",
-    "businessName" : "Fix My Broken Mac",
-    "contact" : {
-      "email" : "",
-      "phone" : "0121 318 9555",
-      "website" : "https://www.fixmybrokenmac.co.uk/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Ffmbm-2.jpg?alt=media&token=52d4e297-b75e-404b-95a1-338489e74ca8",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Ffmbm-1.png?alt=media&token=e8b12ecc-562b-4160-b0c4-ac690d49a881"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "Mon - Fri: 9:00 - 17:00"
-    },
-    "settings" : {
-      "backgroundColour" : "#142E41"
-    },
-    "tags" : [ "Mac Repair" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "",
-      "number" : "",
-      "postcode" : "B4 7UL",
-      "street" : "Moor Street Station ",
-      "subLocal" : ""
-    },
-    "businessDesc" : "Flowers at Moor Street was established in early 2019 we are a florist based in Birmingham.\n\nWe are Interflora suppliers, supplying Solihull, Hall Green, Marston Green, Accocks Green, Elmdon Heath & Shirley with beautiful Interflora flowers.\n\nWe are flower specialists that provide a beautiful variety of flower bouquets, from birthday bouquets, to congratulations bouquets and thank you bouquets,  feel free to design your own bouquet with one of our flower specialists for your special occasion. ",
-    "businessName" : "Flowers at Moor Street",
-    "contact" : {
-      "email" : "flowersatmoorstreet@gmail.com",
-      "phone" : "0121 679 2282",
-      "website" : "https://www.flowersatmoorstreet.co.uk/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Ffams-2.jpg?alt=media&token=0862daf6-dcb1-44b3-829c-d083aab85bfc",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Ffams-1.png?alt=media&token=be59c76c-31d2-43f5-a680-d79f369f5f3a"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "Mon - Sat: 9am - 5pm"
-    },
-    "settings" : {
-      "backgroundColour" : "#FFFFFF"
-    },
-    "tags" : [ "Florist" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "",
-      "number" : "8",
-      "postcode" : "B2 5HU",
-      "street" : "Great Western Arcade",
-      "subLocal" : "Colmore Row"
-    },
-    "businessDesc" : "The great thing about our delicious gluten-free French macaroons isn’t just that they taste amazing. It’s that they’re made to make a difference. Every penny we make in profit is invested in helping young people who need a helping hand, gain skills that will change their lives.",
-    "businessName" : "Miss Macaroon",
-    "contact" : {
-      "email" : "hello@missmacaroon.co.uk",
-      "phone" : "01213590700",
-      "website" : "https://missmacaroon.co.uk/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2FMiss-Macaroon-2.jpg?alt=media&token=333044fa-5664-4a6d-a340-2efb436d35e5",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2FMiss-Macaroon-1.png?alt=media&token=0b4f7d93-b288-4c6a-addc-b32492201e31"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "Monday to Friday: 10am to 7pm"
-    },
-    "settings" : {
-      "backgroundColour" : "#DF6CAA"
-    },
-    "tags" : [ "Macaroons" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "",
-      "number" : "1",
-      "postcode" : "B9 4AA",
-      "street" : "Gibb St",
-      "subLocal" : "Digbeth"
-    },
-    "businessDesc" : "The Clean Kilo is the largest zero-waste supermarket in the UK; based in Digbeth, Birmingham city centre",
-    "businessName" : "The Clean Kilo",
-    "contact" : {
-      "email" : "",
-      "phone" : "0121 389 3473",
-      "website" : "https://www.thecleankilo.co.uk/about"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fclean-kilo-2.png?alt=media&token=688d31b9-d999-4f60-b5e9-be836b8f1437",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fclean-kilo.jpg?alt=media&token=31cf68b0-1f28-4eaf-8d78-648e38316dfe"
-    },
-    "openingTimes" : {
-      "friday" : "11:30-18:00",
-      "fullOpeningTimes" : "Wed: 11:30-18:00\nFri - Sat: 11:30-18:00",
-      "monday" : "",
-      "saturday" : "11:30-18:00",
-      "sunday" : "",
-      "thursday" : "",
-      "tuesday" : "",
-      "wednesday" : "11:30-18:00",
-      "week" : "",
-      "weekend" : ""
-    },
-    "settings" : {
-      "backgroundColour" : "#000000"
-    },
-    "tags" : [ "Super Market" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "3 The Grand",
-      "number" : "27",
-      "postcode" : "B3 2BS",
-      "street" : "Colmore Row",
-      "subLocal" : ""
-    },
-    "businessDesc" : "Drapers Menswear Independent of the Year 2016\n\nWe are proud to use our expertise to bring you an eclectic mix of heritage and next generation brands. Each brand and garment has been hand-picked in order to represent our customer. With the finest denim / clothing collections / footwear and accessories from around the globe.\n\nStockists of Edwin, Red Wing, Filson, A.P.C., Norse Projects, WoodWood, YMC, Folk, Carhartt, Universal Works, MHL, Albam, Clarks Originals & many more.",
-    "businessName" : "LIQUOR STORE",
-    "contact" : {
-      "email" : "sales@liquorstoreclothing.com",
-      "phone" : "0121 236 5830",
-      "website" : "https://liquorstoreclothing.com/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fliquor-store-2.jpg?alt=media&token=122f8881-3ceb-46c1-9a8b-650cd8f3b025",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fliquor-store-1.png?alt=media&token=83cd232f-199a-4e83-b8d7-efc16a5979dc"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "Monday – Saturday, 9am – 6pm\nSunday, 11am - 5pm"
-    },
-    "settings" : {
-      "backgroundColour" : "#FFFFFF"
-    },
-    "tags" : [ "Independent Menswear", "Lifestyle Retailer" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "",
-      "number" : "11",
-      "postcode" : "B13 8HW",
-      "street" : "St Mary's Row",
-      "subLocal" : "Moseley"
-    },
-    "businessDesc" : "Bringing creative living + workshops + coffee + food to Moseley.\nSpecialising in illustrated products and Art + Craft Kits for Adults and Children.",
-    "businessName" : "Folk Like These",
-    "contact" : {
-      "email" : "",
-      "phone" : "",
-      "website" : "https://folklikethese.co.uk/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fflt-2.jpg?alt=media&token=5551aaa1-22fa-4213-af39-da26ae51ef6d",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fflt.png?alt=media&token=f2536587-01bd-4703-b750-1cc4491402f4"
-    },
-    "openingTimes" : {
-      "friday" : "9:00am - 5:00pm",
-      "fullOpeningTimes" : "Mon: Closed\nTue - Sat: 9:00am - 5:00pm\nSun: 10:00am - 2:00pm",
-      "monday" : "",
-      "saturday" : "9:00am - 5:00pm",
-      "sunday" : "10:00am - 2:00pm",
-      "thursday" : "9:00am - 5:00pm",
-      "tuesday" : "9:00am - 5:00pm",
-      "wednesday" : "9:00am - 5:00pm",
-      "week" : "",
-      "weekend" : ""
-    },
-    "settings" : {
-      "backgroundColour" : "#4273B6"
-    },
-    "tags" : [ "Creative", "Workshops" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "1683 Chocolate Place",
-      "number" : "",
-      "postcode" : "B93 0LL",
-      "street" : "High Street",
-      "subLocal" : "Knowle"
-    },
-    "businessDesc" : "Joseph opened 1683 Chocolate Place on 4th September 2015 just 2 weeks after he turned 16 years old, making him the UK's Youngest Chocolatier. Joseph had a goal in mind, he wanted to make Luxury Artisan Chocolates using the best and freshest ingredients.",
-    "businessName" : "1683 Chocolate Place",
-    "contact" : {
-      "email" : "enquiries@1683chocolateplace.co.uk",
-      "phone" : "01564 774550",
-      "website" : "https://1683chocolateplace.co.uk/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2F1683-2.png?alt=media&token=56d11c11-e433-4049-8283-5c973c376a39",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2F1683-1.png?alt=media&token=e82c5378-585e-43f5-870d-4fc3bad71dda"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "Monday - Closed\nTuesday - Saturday 9.00-5.00\nSunday - Closed"
-    },
-    "settings" : {
-      "backgroundColour" : "#593A2B"
-    },
-    "tags" : [ "Chocolatier" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "",
-      "number" : "1393",
-      "postcode" : "B30 2JR",
-      "street" : "Pershore Road",
-      "subLocal" : "Stirchley"
-    },
-    "businessDesc" : "Isherwood & Co is your neighbourhood florist and house plant shop, nestled on Stirchley High Street.\n\nWe’re first and foremost a florist and offer all floral services, though we pride ourselves on our houseplant selection, knowledge and expertise, which we’ll be more than happy to share with you.\n\nWe’re based in Stirchley, though we service most of South Birmingham and City Centre. We’re also pleased to offer a postal service for all our houseplants and accoutrements throughout the UK.",
-    "businessName" : "ISHERWOOD & CO.",
-    "contact" : {
-      "email" : "hello@isherwoodandco.com",
-      "phone" : "",
-      "website" : "https://www.isherwoodandco.com/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fisherwood-2.jpg?alt=media&token=9f7f91a6-f2c5-486e-8f2d-616fc69179e3",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fisherwood-1.png?alt=media&token=6af98720-09ef-4e83-8298-c717e3d0668d"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : "Friday 12-3pm\nSaturday 12-3pm"
-    },
-    "settings" : {
-      "backgroundColour" : "#000105"
-    },
-    "tags" : [ "Florist", "Houseplant Shop" ]
-  }, {
-    "businessAddress" : {
-      "city" : "Birmingham",
-      "name" : "Driftroom Ltd",
-      "number" : "L5",
-      "postcode" : "B5 4BS",
-      "street" : "Link Street",
-      "subLocal" : "Bullring"
-    },
-    "businessDesc" : "driftroom prides itself in offering something for house and home as well as those who live in them!\n\nWe seek out something a little less ordinary, something a bit of fun, with character that will suit a whole range of styles, tastes, ideas, occasions and personalities too!\n\nWe pride ourselves in customer service, attention to detail and have a strong desire to exceed expectations. We encourage you to try us and know you will not be disappointed.",
-    "businessName" : "Driftroom",
-    "contact" : {
-      "email" : "inquiries@driftroom.co.uk",
-      "phone" : "0121 740 0721",
-      "website" : "https://www.driftroom.co.uk/"
-    },
-    "featured" : false,
-    "images" : {
-      "banner" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fdr-2.jpg?alt=media&token=70be66e6-f953-4477-aad8-ce7594ac76a7",
-      "logo" : "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fdr-1.jpg?alt=media&token=b6b9eaef-ae7a-4da4-a8a3-802637b35000"
-    },
-    "openingTimes" : {
-      "fullOpeningTimes" : ""
-    },
-    "settings" : {
-      "backgroundColour" : "#FFFFFF"
-    },
-    "tags" : [ "lifestyle", "gifting shop" ]
-  } ]
-}
+    "businessName": "Loki Wine Merchant & Tasting House",
+    "businessDesc": "Loki takes the existing mindset of wine as something that we consume, and shifts it to one of something we appreciate. It’s a journey, not a commodity. \nAt Loki we like to lay it all out in front of you and give you a choice. Hopefully, you’ll come away with an understanding about why wine tastes the way it does, and that understanding will grow and grow.",
+    "businessAddress": {
+        "number": "36",
+        "name": "",
+        "street": "Great Western Arcade",
+        "city": "Birmingham",
+        "subLocal": "",
+        "postcode": "B2 5HU"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Mo - Sa: 10:00 – 18:00\nSu: 12:00 – 18:00"
+    },
+    "contact": {
+        "website": "https://www.lokiwine.co.uk",
+        "email": "",
+        "phone": "0121 212 9440"
+    },
+    "images": {
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F2020%2Fnov%2FLoki-Logo-New-Without-Text-Black-on-Transparent.png?alt=media&token=97b3bf50-bc3e-488b-a081-e6fa55b71d46",
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F2020%2Fnov%2FScreenshot%202020-11-26%20at%2015.51.15.png?alt=media&token=e3a9fcc5-1a85-425f-9990-ce161a608089"
+    },
+    "tags": [
+        "Wine", "Wine Tasting"
+    ],
+    "categories": [
+        "Alcohol"
+    ],
+    "settings": {
+        "backgroundColour": "#FFFFFF"
+    },
+    "featured": false
+}, {
+    "businessName": "Smithsonia",
+    "businessDesc": "Smithsonia is an established and popular family business which has been open in Birmingham for over 40 years. During this time, the shop has filled the gifting needs of many local people and has established a wonderful network of suppliers, many of whom are independent artists from this country and beyond. We have now opened our doors to the rest of the country via our website.",
+    "businessAddress": {
+        "number": "5-9",
+        "name": "",
+        "street": "Piccadilly Arcade",
+        "city": "Birmingham",
+        "subLocal": "",
+        "postcode": "B2 4HD"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Monday to Saturday 11.00am - 5.00pm."
+    },
+    "contact": {
+        "website": "https://www.smithsonia.co.uk",
+        "email": "mailto://smithsoniashop@gmail.com",
+        "phone": "01216438405"
+    },
+    "images": {
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F2020%2Fnov%2Fsmithsonia-logo-200-white.png?alt=media&token=851bbcd6-9d2b-4e2b-af05-3d36b3f0250b",
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F2020%2Fnov%2FScreenshot%202020-11-26%20at%2015.41.54.png?alt=media&token=8d94fa80-3734-49f5-80c7-4f1af9b57bac"
+    },
+    "tags": [
+        "Jewellery"
+    ],
+    "categories": [
+        "Jeweller"
+    ],
+    "settings": {
+        "backgroundColour": "#000000"
+    },
+    "featured": false
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "",
+        "number": "1535 / 1537",
+        "postcode": "B30 2JH",
+        "street": "Pershore Road",
+        "subLocal": "Stirchley"
+    },
+    "businessDesc": "Stirchley Wines & Spirits was established in 1979 and remains a family-owned off-licence based in Stirchley, Birmingham.  Run by father and son team, Amrik and Krishan Rajput, we have built up a highly regarded and reputable business, which is very much part of the local community.\n\nWe at Stirchley Wines & Spirits are striving for something different, enriching lives with a wide and varied selection, from great beer and cider to fine wines and an unmatched selection of spirits.",
+    "businessName": "Stirchley Wines & Spirits",
+    "contact": {
+        "email": "",
+        "phone": "0121 459 9936",
+        "website": "https://www.stirchleywines.co.uk/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fstirchley-wines-spritits-2.png?alt=media&token=02e3cea2-c10b-4e47-bf4e-2dfab4972d99",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fstirchley-wines-spritits-1.png?alt=media&token=2b34bc9a-c05b-4779-a31f-eb0bee604f58"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "12pm until 7pm - Monday to Friday\n11am until 7pm - Saturday"
+    },
+    "settings": {
+        "backgroundColour": "#FFFFFF"
+    },
+    "tags": ["Wines", "Spirits"]
+}, {
+    "businessAddress": {
+        "city": "BIRMINGHAM",
+        "name": "",
+        "number": "1420",
+        "postcode": "B30 2PH",
+        "street": "PERSHORE ROAD",
+        "subLocal": ""
+    },
+    "businessDesc": "SWEETMEAT INC. CONFECTIONERY IS MADE IN BIRMINGHAM. WE COOK IN SMALL BATCHES FOR THE HIGHEST QUALITY SUGAR CONFECTION. WE DON'T USE CHEAP SUBSTITUTES, WE DON'T ADD UNNECESSARY EXTRAS LIKE CHEMICAL THICKENERS OR EMULSIFIERS, AND WE DEFINITELY DON'T USE PALM OIL.",
+    "businessName": "SWEETMEAT INC.",
+    "contact": {
+        "email": "hello@sweetmeat.co.uk",
+        "phone": "",
+        "website": "https://www.sweetmeat.co.uk/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fsw-2.png?alt=media&token=ce28b123-c00f-48c1-9fb9-058eed3fa3e6",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fsw-1.png?alt=media&token=650bd1f5-c3dc-45c8-ab28-76312afecd24"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "SATURDAYS FROM 10AM TIL 3PM"
+    },
+    "settings": {
+        "backgroundColour": "#FFFFFF"
+    },
+    "tags": ["CONFECTIONERY"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "",
+        "number": "38",
+        "postcode": "B15 1LD",
+        "street": "Islington Row Middleway",
+        "subLocal": "Village"
+    },
+    "businessDesc": "WELCOME TO LA-POP!\n\nBIRMINGHAM’S FIRST INDEPENDENT LOLLY & COFFEE BAR\n\nWE SPECIALISE IN HANDCRAFTED GELATO LOLLIES FRESHLY MADE USING LOCALLY SOURCED ORGANIC MILK ",
+    "businessName": "La Pop",
+    "contact": {
+        "email": "hello@la-pop.co.uk",
+        "phone": "",
+        "website": "https://www.la-pop.co.uk/home-1"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fla-2.jpg?alt=media&token=9500276c-b1d0-462b-a29b-80de3565ab50",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fla-1.png?alt=media&token=9b2e0dab-a0cc-4baa-9bdd-12c91733b9ee"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Mon - Fri: 2 - 10pm\nSat - Sun: 12 - 10pm"
+    },
+    "settings": {
+        "backgroundColour": "#FFFFFF"
+    },
+    "tags": ["Gelato"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "",
+        "number": "1402",
+        "postcode": "B30 2PH",
+        "street": "Pershore Road",
+        "subLocal": "Stirchley"
+    },
+    "businessDesc": "Quietude was founded in late 2018 by Sam and Jen Jackson. After years of feeling over-worked and over-stimulated, life felt like it was slipping away. We began to explore ways to slow down and achieve a better work-life balance. We realised the importance of looking after our mental health as well as our physical health and we started taking steps to live more mindfully.\n\nWe made the decision to open our own store, to help others to find calm and take care of themselves. And so, our vision of an independent store and sanctuary for our community and neighbours was born.\n\nWe offer a range of quality, sustainable items, chosen to promote peace and well being, from natural skincare products to soy candles, handmade pottery, homewares, and inspiring books. ",
+    "businessName": "Quietude",
+    "contact": {
+        "email": "quietudestore@gmail.com",
+        "phone": "",
+        "website": "https://www.quietudestore.co.uk/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fqs-2.png?alt=media&token=055daaea-6e4b-406b-834c-a02dea1a78e6",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fqs-1.png?alt=media&token=b1815110-226b-4734-9eed-1e1d43289960"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Sunday - Tuesday: Closed\nWednesday - Saturday: 10:30am - 4pm"
+    },
+    "settings": {
+        "backgroundColour": "#E1D8C7"
+    },
+    "tags": ["Wellbeing", "lifestyle shop"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "Stirchley Trading Estate",
+        "number": "Unit 14",
+        "postcode": "B30 2PF",
+        "street": "Hazelwell Rd",
+        "subLocal": "Stirchley"
+    },
+    "businessDesc": "Back in the old days, long before “Salvage Hunter” was a twinkle in a TV producers’ eye, enamel lampshades were hanging plentifully in decaying factories and mills across the country. There was a small demand for supply and restoration of these shades from niche places like vintage car enthusiasts, heritage railways and the like. Having feet in both camps our MD, Harry started out in the comfort of his shed repairing old lamps mainly as favours for others.",
+    "businessName": "Enamel Shades",
+    "contact": {
+        "email": "contact@enamelshades.co.uk",
+        "phone": "0121 451 1799",
+        "website": ""
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fes-2.jpg?alt=media&token=8d8eb236-420d-4d29-9305-2af8f102bcbe",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fes-1.png?alt=media&token=4a9e5ee7-b0fe-4de0-a7c6-1d33c3d7b22b"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Mon - Fir: 8am–4:30pm"
+    },
+    "settings": {
+        "backgroundColour": "#CDCED2"
+    },
+    "tags": ["lighting shop"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "",
+        "number": "3",
+        "postcode": "B9 4AA",
+        "street": "Gibb St",
+        "subLocal": "Deritend"
+    },
+    "businessDesc": "Apple are great, we love Apple, but have you tried getting an appointment at the genius bar recently? Chances are we can fix your Apple product faster, and cheaper than Apple can! That’s because we fix things down to component level. That’s right, we actually get a soldering iron out and replace the faulty component rather than replacing the whole board.",
+    "businessName": "Fix My Broken Mac",
+    "contact": {
+        "email": "",
+        "phone": "0121 318 9555",
+        "website": "https://www.fixmybrokenmac.co.uk/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Ffmbm-2.jpg?alt=media&token=52d4e297-b75e-404b-95a1-338489e74ca8",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Ffmbm-1.png?alt=media&token=e8b12ecc-562b-4160-b0c4-ac690d49a881"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Mon - Fri: 9:00 - 17:00"
+    },
+    "settings": {
+        "backgroundColour": "#142E41"
+    },
+    "tags": ["Mac Repair"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "",
+        "number": "",
+        "postcode": "B4 7UL",
+        "street": "Moor Street Station ",
+        "subLocal": ""
+    },
+    "businessDesc": "Flowers at Moor Street was established in early 2019 we are a florist based in Birmingham.\n\nWe are Interflora suppliers, supplying Solihull, Hall Green, Marston Green, Accocks Green, Elmdon Heath & Shirley with beautiful Interflora flowers.\n\nWe are flower specialists that provide a beautiful variety of flower bouquets, from birthday bouquets, to congratulations bouquets and thank you bouquets,  feel free to design your own bouquet with one of our flower specialists for your special occasion. ",
+    "businessName": "Flowers at Moor Street",
+    "contact": {
+        "email": "flowersatmoorstreet@gmail.com",
+        "phone": "0121 679 2282",
+        "website": "https://www.flowersatmoorstreet.co.uk/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Ffams-2.jpg?alt=media&token=0862daf6-dcb1-44b3-829c-d083aab85bfc",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Ffams-1.png?alt=media&token=be59c76c-31d2-43f5-a680-d79f369f5f3a"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Mon - Sat: 9am - 5pm"
+    },
+    "settings": {
+        "backgroundColour": "#FFFFFF"
+    },
+    "tags": ["Florist"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "",
+        "number": "8",
+        "postcode": "B2 5HU",
+        "street": "Great Western Arcade",
+        "subLocal": "Colmore Row"
+    },
+    "businessDesc": "The great thing about our delicious gluten-free French macaroons isn’t just that they taste amazing. It’s that they’re made to make a difference. Every penny we make in profit is invested in helping young people who need a helping hand, gain skills that will change their lives.",
+    "businessName": "Miss Macaroon",
+    "contact": {
+        "email": "hello@missmacaroon.co.uk",
+        "phone": "01213590700",
+        "website": "https://missmacaroon.co.uk/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2FMiss-Macaroon-2.jpg?alt=media&token=333044fa-5664-4a6d-a340-2efb436d35e5",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2FMiss-Macaroon-1.png?alt=media&token=0b4f7d93-b288-4c6a-addc-b32492201e31"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Monday to Friday: 10am to 7pm"
+    },
+    "settings": {
+        "backgroundColour": "#DF6CAA"
+    },
+    "tags": ["Macaroons"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "",
+        "number": "1",
+        "postcode": "B9 4AA",
+        "street": "Gibb St",
+        "subLocal": "Digbeth"
+    },
+    "businessDesc": "The Clean Kilo is the largest zero-waste supermarket in the UK; based in Digbeth, Birmingham city centre",
+    "businessName": "The Clean Kilo",
+    "contact": {
+        "email": "",
+        "phone": "0121 389 3473",
+        "website": "https://www.thecleankilo.co.uk/about"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fclean-kilo-2.png?alt=media&token=688d31b9-d999-4f60-b5e9-be836b8f1437",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fclean-kilo.jpg?alt=media&token=31cf68b0-1f28-4eaf-8d78-648e38316dfe"
+    },
+    "openingTimes": {
+        "friday": "11:30-18:00",
+        "fullOpeningTimes": "Wed: 11:30-18:00\nFri - Sat: 11:30-18:00",
+        "monday": "",
+        "saturday": "11:30-18:00",
+        "sunday": "",
+        "thursday": "",
+        "tuesday": "",
+        "wednesday": "11:30-18:00",
+        "week": "",
+        "weekend": ""
+    },
+    "settings": {
+        "backgroundColour": "#000000"
+    },
+    "tags": ["Super Market"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "3 The Grand",
+        "number": "27",
+        "postcode": "B3 2BS",
+        "street": "Colmore Row",
+        "subLocal": ""
+    },
+    "businessDesc": "Drapers Menswear Independent of the Year 2016\n\nWe are proud to use our expertise to bring you an eclectic mix of heritage and next generation brands. Each brand and garment has been hand-picked in order to represent our customer. With the finest denim / clothing collections / footwear and accessories from around the globe.\n\nStockists of Edwin, Red Wing, Filson, A.P.C., Norse Projects, WoodWood, YMC, Folk, Carhartt, Universal Works, MHL, Albam, Clarks Originals & many more.",
+    "businessName": "LIQUOR STORE",
+    "contact": {
+        "email": "sales@liquorstoreclothing.com",
+        "phone": "0121 236 5830",
+        "website": "https://liquorstoreclothing.com/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fliquor-store-2.jpg?alt=media&token=122f8881-3ceb-46c1-9a8b-650cd8f3b025",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fliquor-store-1.png?alt=media&token=83cd232f-199a-4e83-b8d7-efc16a5979dc"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Monday – Saturday, 9am – 6pm\nSunday, 11am - 5pm"
+    },
+    "settings": {
+        "backgroundColour": "#FFFFFF"
+    },
+    "tags": ["Independent Menswear", "Lifestyle Retailer"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "",
+        "number": "11",
+        "postcode": "B13 8HW",
+        "street": "St Mary's Row",
+        "subLocal": "Moseley"
+    },
+    "businessDesc": "Bringing creative living + workshops + coffee + food to Moseley.\nSpecialising in illustrated products and Art + Craft Kits for Adults and Children.",
+    "businessName": "Folk Like These",
+    "contact": {
+        "email": "",
+        "phone": "",
+        "website": "https://folklikethese.co.uk/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fflt-2.jpg?alt=media&token=5551aaa1-22fa-4213-af39-da26ae51ef6d",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F19-nov-20%2Fflt.png?alt=media&token=f2536587-01bd-4703-b750-1cc4491402f4"
+    },
+    "openingTimes": {
+        "friday": "9:00am - 5:00pm",
+        "fullOpeningTimes": "Mon: Closed\nTue - Sat: 9:00am - 5:00pm\nSun: 10:00am - 2:00pm",
+        "monday": "",
+        "saturday": "9:00am - 5:00pm",
+        "sunday": "10:00am - 2:00pm",
+        "thursday": "9:00am - 5:00pm",
+        "tuesday": "9:00am - 5:00pm",
+        "wednesday": "9:00am - 5:00pm",
+        "week": "",
+        "weekend": ""
+    },
+    "settings": {
+        "backgroundColour": "#4273B6"
+    },
+    "tags": ["Creative", "Workshops"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "1683 Chocolate Place",
+        "number": "",
+        "postcode": "B93 0LL",
+        "street": "High Street",
+        "subLocal": "Knowle"
+    },
+    "businessDesc": "Joseph opened 1683 Chocolate Place on 4th September 2015 just 2 weeks after he turned 16 years old, making him the UK's Youngest Chocolatier. Joseph had a goal in mind, he wanted to make Luxury Artisan Chocolates using the best and freshest ingredients.",
+    "businessName": "1683 Chocolate Place",
+    "contact": {
+        "email": "enquiries@1683chocolateplace.co.uk",
+        "phone": "01564 774550",
+        "website": "https://1683chocolateplace.co.uk/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2F1683-2.png?alt=media&token=56d11c11-e433-4049-8283-5c973c376a39",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2F1683-1.png?alt=media&token=e82c5378-585e-43f5-870d-4fc3bad71dda"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Monday - Closed\nTuesday - Saturday 9.00-5.00\nSunday - Closed"
+    },
+    "settings": {
+        "backgroundColour": "#593A2B"
+    },
+    "tags": ["Chocolatier"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "",
+        "number": "1393",
+        "postcode": "B30 2JR",
+        "street": "Pershore Road",
+        "subLocal": "Stirchley"
+    },
+    "businessDesc": "Isherwood & Co is your neighbourhood florist and house plant shop, nestled on Stirchley High Street.\n\nWe’re first and foremost a florist and offer all floral services, though we pride ourselves on our houseplant selection, knowledge and expertise, which we’ll be more than happy to share with you.\n\nWe’re based in Stirchley, though we service most of South Birmingham and City Centre. We’re also pleased to offer a postal service for all our houseplants and accoutrements throughout the UK.",
+    "businessName": "ISHERWOOD & CO.",
+    "contact": {
+        "email": "hello@isherwoodandco.com",
+        "phone": "",
+        "website": "https://www.isherwoodandco.com/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fisherwood-2.jpg?alt=media&token=9f7f91a6-f2c5-486e-8f2d-616fc69179e3",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fisherwood-1.png?alt=media&token=6af98720-09ef-4e83-8298-c717e3d0668d"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": "Friday 12-3pm\nSaturday 12-3pm"
+    },
+    "settings": {
+        "backgroundColour": "#000105"
+    },
+    "tags": ["Florist", "Houseplant Shop"]
+}, {
+    "businessAddress": {
+        "city": "Birmingham",
+        "name": "Driftroom Ltd",
+        "number": "L5",
+        "postcode": "B5 4BS",
+        "street": "Link Street",
+        "subLocal": "Bullring"
+    },
+    "businessDesc": "driftroom prides itself in offering something for house and home as well as those who live in them!\n\nWe seek out something a little less ordinary, something a bit of fun, with character that will suit a whole range of styles, tastes, ideas, occasions and personalities too!\n\nWe pride ourselves in customer service, attention to detail and have a strong desire to exceed expectations. We encourage you to try us and know you will not be disappointed.",
+    "businessName": "Driftroom",
+    "contact": {
+        "email": "inquiries@driftroom.co.uk",
+        "phone": "0121 740 0721",
+        "website": "https://www.driftroom.co.uk/"
+    },
+    "featured": false,
+    "images": {
+        "banner": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fdr-2.jpg?alt=media&token=70be66e6-f953-4477-aad8-ce7594ac76a7",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/crowded-292f0.appspot.com/o/Businesses%2F20-nov-20%2Fdr-1.jpg?alt=media&token=b6b9eaef-ae7a-4da4-a8a3-802637b35000"
+    },
+    "openingTimes": {
+        "fullOpeningTimes": ""
+    },
+    "settings": {
+        "backgroundColour": "#FFFFFF"
+    },
+    "tags": ["lifestyle", "gifting shop"]
+}]
