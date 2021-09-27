@@ -146,13 +146,13 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		6C26567925668AA90096FD5D /* Businesses Collection Cells */ = {
+		6C26567925668AA90096FD5D /* Collection Cells */ = {
 			isa = PBXGroup;
 			children = (
 				6CE98B1925666E9500C8BB2F /* FeaturedCollectionViewCell.swift */,
 				6CE98B1425666D0D00C8BB2F /* BusinessCollectionViewCell.swift */,
 			);
-			path = "Businesses Collection Cells";
+			path = "Collection Cells";
 			sourceTree = "<group>";
 		};
 		6C26567A25668AAF0096FD5D /* Collection Header */ = {
@@ -325,10 +325,10 @@
 		6CE98A7925664BD100C8BB2F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6C26576D2567A64E0096FD5D /* Settings */,
-				6C2656AB2566B45B0096FD5D /* Business Table Cells */,
 				6C26567A25668AAF0096FD5D /* Collection Header */,
-				6C26567925668AA90096FD5D /* Businesses Collection Cells */,
+				6C26567925668AA90096FD5D /* Collection Cells */,
+				6C2656AB2566B45B0096FD5D /* Business Table Cells */,
+				6C26576D2567A64E0096FD5D /* Settings */,
 			);
 			path = View;
 			sourceTree = "<group>";

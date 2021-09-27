@@ -11,13 +11,13 @@ class BusinessImageHeaderTableViewCell: UITableViewCell {
 
     static let identifier = "BusinessImageHeaderTableViewCell"
     
-    var banner: String? {
+    var banner: String = "" {
         didSet {
             layoutSubviews()
         }
     }
     
-    var logo: String? {
+    var logo: String = "" {
         didSet {
             layoutSubviews()
         }
@@ -31,7 +31,6 @@ class BusinessImageHeaderTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        selectionStyle = .none
         
         businessImageViewBorder.layer.cornerRadius = 10
         businessImageViewBorder.clipsToBounds = false
@@ -50,20 +49,17 @@ class BusinessImageHeaderTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        if let banner = banner {
-            if let bannerURL = URL(string: banner) {
-                NetworkController.shared.requestImage(bannerURL) { [weak self] image in
-                    self?.bannerActivityIndicator.stopAnimating()
-                    self?.bannerImageView.image = image
-                }
+        //TODO: remove image requests from within view
+        if let bannerURL = URL(string: banner) {
+            NetworkController.shared.requestImage(bannerURL) { [weak self] image in
+                self?.bannerActivityIndicator.stopAnimating()
+                self?.bannerImageView.image = image
             }
         }
-        
-        if let logo = logo {
-            if let logoURL = URL(string: logo) {
-                NetworkController.shared.requestImage(logoURL) { [weak self] image in
-                    self?.logoImageView.image = image
-                }
+    
+        if let logoURL = URL(string: logo) {
+            NetworkController.shared.requestImage(logoURL) { [weak self] image in
+                self?.logoImageView.image = image
             }
         }
     }

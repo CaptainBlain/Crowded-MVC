@@ -8,6 +8,5 @@
 import Foundation
 
 struct Constant {
-    static let apiEndpoint = "https://api.mywebbuilder.co.uk"
-    static let businessId = "5fb7640d619cb70dbc31d75d"
+   
 }

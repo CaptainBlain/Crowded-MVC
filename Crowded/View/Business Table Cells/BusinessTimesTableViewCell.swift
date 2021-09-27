@@ -13,12 +13,5 @@ class BusinessTimesTableViewCell: UITableViewCell {
         
     @IBOutlet weak var openingTimesLabel: UILabel!
     @IBOutlet weak var openingTimesDetailsLabel: UILabel!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-        selectionStyle = .none
-
-    }
-    
+        
 }

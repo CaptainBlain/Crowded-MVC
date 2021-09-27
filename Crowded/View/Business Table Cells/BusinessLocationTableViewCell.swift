@@ -14,10 +14,4 @@ class BusinessLocationTableViewCell: UITableViewCell {
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
   
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-        selectionStyle = .none
-
-    }
 }

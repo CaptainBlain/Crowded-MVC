@@ -8,7 +8,9 @@
 import UIKit
 
 class LocationHeader: UICollectionReusableView {
+    
     static let identifier = "LocationHeader"
+    
     @IBOutlet weak var locationHeaderButton: UIButton!
     @IBAction func didPressLocationHeaderButton(_ sender: Any) { }
 }

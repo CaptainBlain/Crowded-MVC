@@ -14,11 +14,5 @@ class BusinessHeaderTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var tagLabel: UILabel!
     @IBOutlet weak var descTextView: UITextView!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-        selectionStyle = .none
-    }
 
 }

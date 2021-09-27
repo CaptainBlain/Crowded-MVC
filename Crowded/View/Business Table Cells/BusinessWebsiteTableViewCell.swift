@@ -14,12 +14,4 @@ class BusinessWebsiteTableViewCell: UITableViewCell {
     @IBOutlet weak var websiteLabel: UILabel!
     @IBOutlet weak var websiteDetailsLabel: UILabel!
         
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-        selectionStyle = .none
-    }
-
-
-    
 }

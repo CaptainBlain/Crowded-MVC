@@ -69,13 +69,27 @@ extension MainViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
+        let business = businesses[indexPath.item]
+        
         if indexPath.item == 0 {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FeaturedCollectionViewCell.identifier, for: indexPath) as! FeaturedCollectionViewCell
-             cell.business = businesses[indexPath.item]
+            
+            cell.imageViewBorder.backgroundColor = business.settings.getBackgroundColour()
+            cell.imageView.backgroundColor = business.settings.getBackgroundColour()
+            cell.titleLabel.text = business.businessName
+            cell.tagLabel.text = business.tagString
+            cell.logo = business.images.logo
+            
             return cell
         }
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: BusinessCollectionViewCell.identifier, for: indexPath) as! BusinessCollectionViewCell
-         cell.business = businesses[indexPath.item]
+        
+        cell.imageViewBorder.backgroundColor = business.settings.getBackgroundColour()
+        cell.imageView.backgroundColor = business.settings.getBackgroundColour()
+        cell.logo = business.images.logo
+        cell.titleLabel.text = business.businessName.capitalized
+        cell.tagLabel.text = business.tagString.lowercased()
+        
         return cell
     }
 }
